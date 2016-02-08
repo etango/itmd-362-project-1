@@ -115,7 +115,7 @@ a.to_nav:focus {
     margin:1cm 3cm;
     color:white;
     background-color:;
-    text-align: justify;
+    max-width: 40em;
     font-family:inherit;
 }
 
@@ -178,6 +178,14 @@ a.to_nav:focus {
     padding-bottom:.2em;
     display:none;
 }
+
+h2 {
+    max-width:40em;
+}
+p {
+    max-width: 35em; /*made adjustment to keep font size same*/
+    text-align: center;
+}
 @media only screen and (min-width: 768px) {
     
     a.to_nav{
@@ -187,7 +195,7 @@ a.to_nav:focus {
     .wrapper{
         position: relative;
         margin:auto;
-        width:1080px
+        width:768px
     }
 
     
@@ -219,13 +227,12 @@ a.to_nav:focus {
     
     #title{
         font-size-adjust: auto;
-        margin-left:3em;
+       
     }
     #newletter{
-    
     color:white;
-    margin:1cm 3cm;
-    text-align: center;
+    
+    
     
     
 }
@@ -245,5 +252,8 @@ a.to_nav:focus {
     padding-bottom:.2em;
     display:inline;    
 }
+    #welcome{
+        text-align: justify;
+    }
 }
 
