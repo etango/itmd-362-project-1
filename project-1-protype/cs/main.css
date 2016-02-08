@@ -172,6 +172,12 @@ a.to_nav:focus {
     font:white;
 }
 
+#golden{
+    background-color:black;
+    padding-top:.2em;
+    padding-bottom:.2em;
+    display:none;
+}
 @media only screen and (min-width: 768px) {
     
     a.to_nav{
@@ -229,8 +235,15 @@ a.to_nav:focus {
     }
 
     #subscribe{
-        margin-right:15em;
+        margin-right:18em;
         
     }
+
+    #golden{
+    background-color:black;
+    padding-top:.2em;
+    padding-bottom:.2em;
+    display:inline;    
+}
 }
 
