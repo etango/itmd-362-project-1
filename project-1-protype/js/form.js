@@ -1,5 +1,6 @@
 var post = document.getElementById('newletter');
 var createform = document.createElement('form');
+createform.id = "email-signup";
 
 var input1 = document.createElement('input');
 input1.id = 'email';
