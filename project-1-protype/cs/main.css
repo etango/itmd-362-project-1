@@ -239,11 +239,11 @@ p {
 
     #news{
     padding-bottom: .5em;
+    margin-left:7.5em;
     }
 
     #subscribe{
-        margin-right:18em;
-        
+     
     }
 
     #golden{
@@ -254,6 +254,10 @@ p {
 }
     #welcome{
         text-align: justify;
+    }
+    
+    #email-signup{
+        margin-left:9em;
     }
 }
 
