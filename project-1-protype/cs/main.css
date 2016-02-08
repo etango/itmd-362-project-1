@@ -117,7 +117,6 @@ a.to_nav:focus {
     color:white;
     display:inline-block;
     margin-top: 3cm;
-    margin-left: 7cm;
     text-align: center;
 }
 #welcome {
@@ -142,6 +141,7 @@ a.to_nav:focus {
     background-color:black;
     list-style: inherit;
     padding:5px 0;
+  
     
 }
 
@@ -153,6 +153,7 @@ a.to_nav:focus {
     line-height: 2em;
     height:2em;
     border-bottom: 1px solid black;
+    
 
 }
 
@@ -160,6 +161,7 @@ a.to_nav:focus {
     color:black;
     background:grey;
 }
+
 
 @media only screen and (min-width: 768px) {
     
@@ -170,14 +172,9 @@ a.to_nav:focus {
     .wrapper{
         position: relative;
         margin:auto;
-        width:1920px
+        width:1080px
     }
-    
-    #title{
-        position: relative;
-        left:5em;
-        
-    }
+
     
     #bottom{
         background:black;
@@ -203,6 +200,22 @@ a.to_nav:focus {
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
         border-radius: 2px;
+    }
+    
+    #newletter{
+    
+    color:white;
+    margin:1cm 3cm;
+    text-align: center;
+    
+}
+
+    #news{
+    padding-bottom: .5em;
+    }
+
+    #subscribe{
+        margin-right:15em;
     }
 }
 
