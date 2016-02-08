@@ -102,7 +102,7 @@ a.to_nav {
 a.to_nav:hover,
 a.to_nav:focus {
     color: black;
-    background: grey;
+    background: blue;
 }
 
 #home{
@@ -113,7 +113,7 @@ a.to_nav:focus {
 
 #title{
     font-family: inherit;
-    font-size:5em;
+    font-size:5em; /* adjust text size when small screen */
     color:white;
     display:inline-block;
     margin-top: 3cm;
@@ -141,7 +141,7 @@ a.to_nav:focus {
     background-color:black;
     list-style: inherit;
     padding:5px 0;
-  
+
     
 }
 
@@ -157,11 +157,30 @@ a.to_nav:focus {
 
 }
 
-#main_nav li a:hover,#pmain_nav li a:focus{
-    color:black;
-    background:grey;
+#main_nav a{
+    display:inline-block;
+    text-decoration: none;
+    color:white;
 }
 
+#main_nav li a:hover,#pmain_nav li a:focus{
+    color:black;
+    background:orange;
+}
+
+#newletter{
+    margin-bottom:1em;
+    font-family:sans-serif;
+    color:white;
+}
+
+#subscribe{
+    background-color:orange;
+}
+
+#text1{
+    font:white;
+}
 
 @media only screen and (min-width: 768px) {
     
@@ -202,11 +221,16 @@ a.to_nav:focus {
         border-radius: 2px;
     }
     
+    #title{
+        font-size-adjust: auto;
+        margin-left:3em;
+    }
     #newletter{
     
     color:white;
     margin:1cm 3cm;
     text-align: center;
+    
     
 }
 
@@ -216,6 +240,7 @@ a.to_nav:focus {
 
     #subscribe{
         margin-right:15em;
+        
     }
 }
 
