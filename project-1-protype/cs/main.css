@@ -91,7 +91,7 @@ a.to_nav {
  
 a.to_nav:hover,
 a.to_nav:focus {
-    color: white;
+    color: black;
     background: orange;
 }
 
