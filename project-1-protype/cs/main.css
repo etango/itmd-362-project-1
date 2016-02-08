@@ -24,6 +24,38 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+ 
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+ 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 ul {
     list-style: disc;
     padding: 0 0 0 20px;
@@ -64,6 +96,7 @@ a.to_nav {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
+    
 }
  
 a.to_nav:hover,
@@ -71,3 +104,70 @@ a.to_nav:focus {
     color: black;
     background: grey;
 }
+
+#home{
+    background-color:#33CCff;
+    
+    
+}
+
+#title{
+    font-family: inherit;
+    font-size:5em;
+    color:white;
+    display:inline-block;
+    margin-top: 3cm;
+    margin-left: 7cm;
+}
+#welcome {
+    display:inline-block;
+    padding:1cm;
+    margin:1cm 3cm;
+    color:white;
+    background-color:;
+    text-align: justify;
+    font-family:inherit;
+}
+
+
+#copyright{
+   
+    float: right;
+    font-size: .8em;
+    margin-top:14cm;
+    margin-right:.1cm;
+}
+@media only screen and (min-width: 768px) {
+    
+    a.to_nav{
+        display:none;
+    }
+    
+    .wrapper{
+        position: relative;
+        width: 768px;
+        margin:auto;
+    }
+    
+    #main_nav{
+        position: absolute;
+        top:5px;
+        right:10px;
+        background:none;
+    }
+    
+    #primary_nav li{
+        display:inline;
+    }
+    
+    #main_nav li a{
+        
+        float:left;
+        border: none;
+        padding: 0 10px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+}
+
