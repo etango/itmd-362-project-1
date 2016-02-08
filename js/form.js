@@ -31,7 +31,6 @@ var lnbreak = document.createElement('br');
 
 labelemail.appendChild(text1);
 labelphone.appendChild(text2);
-
 createform.appendChild(labelemail);
 createform.appendChild(y);
 createform.appendChild(lnbreak);
@@ -40,5 +39,22 @@ createform.appendChild(labelphone);
 createform.appendChild(phone);
 createform.appendChild(lnbreak.cloneNode(true));
 createform.appendChild(lnbreak.cloneNode(true));
-
 x.appendChild(createform);
+
+var btn1 = document.getElementById('submit');
+
+btn1.addEventListener('click', function datatxt() {
+    
+    function WriteToText(createform){
+        
+        set fso = CreateObject("Scripting.FileSystemObject");
+        set s = fso.CreateTextFile("C:\Users\ETango\Desktop\itmd-362-project-1\txt\signlist.txt",true);
+        s.writeline(document.createform.y.value);
+        s.writeline(document.createform.phone.value);
+        s.Close();
+    }
+    
+    
+    
+    
+});
