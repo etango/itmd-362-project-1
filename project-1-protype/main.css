@@ -127,7 +127,8 @@ a.to_nav:focus {
    
     float: right;
     font-size: .8em;
-    margin-top:14cm;
+    color:cyan;
+    
 }
 
 #main_nav ul{
@@ -268,6 +269,11 @@ p {
     #welcome{
         text-align: justify;
     }
-    
+    #copyright{ 
+        float: right;
+        font-size: .8em;
+        margin-top:14cm;
+        color:cyan;
+    }
 }
 
