@@ -1,11 +1,11 @@
-var button1 = document.getElementById("SUBSCRIBE");
+var button1 = document.getElementById("submit");
+
 button1.addEventListener('click',function subscribe(){
     
   
-    document.getElementById("thank_you").innerHTML=("Thank you for SUBSCRIBING to Golden Aquarium!");
+    document.getElementById("thank_you").innerHTML=("Thank you for subscribing to Golden Aquarium!");
     
-    
-    
+
     
     
 })
