@@ -69,7 +69,7 @@ a {
     
 }
  #email{
-       margin-left:20em;
+     align-content:center;
 }
 
  
@@ -171,13 +171,13 @@ a.to_nav:focus {
     background-color:cyan;
     font-family: monospace,inherit;
     font-style: italic;
-    color:coral;
+    color:darkorange;
     
 }
 
 #text1{
     font:white;
-    font-family:inherit;
+    font-family:sans-serif;
 }
 
 #golden{
@@ -197,7 +197,14 @@ p {
 }
 
 #thank_you{
-    color:blue;
+    color:white;
+    margin-top:4em;
+    position: relative;
+    max-width: 50%;
+}
+
+#my_form{
+    text-align: center;
 }
 @media only screen and (min-width: 768px) {
     
@@ -244,14 +251,10 @@ p {
     }
     #newletter{
         color:white;
-    
-    
-    
-    
 }
 
     #news{
-        padding-bottom: .5em;
+        padding-bottom: 1em;
         margin-left:7.5em;
     }
 
@@ -266,8 +269,5 @@ p {
         text-align: justify;
     }
     
-    #email-signup{
-        margin-left:9em;
-    }
 }
 
