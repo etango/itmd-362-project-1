@@ -16,12 +16,18 @@
     <body id="home">
         <div class="wrapper">
      
-        <header>
+       <div id="top">
+           
+        </div>
+            <header>
         
             <a class="to_nav" href="#main_nav">Menu</a>
         
         
         </header>
+            
+            
+        
         
             
        
@@ -55,11 +61,16 @@
             <div id="newletter">
             
             <p id="news"> Subscribe to us now to receive information about fish and monthly deal. </p>
-                <form>
-                    <input type="email" placeholder="example@domain.com" pattern="^.+@.+$"/>
+            </div>
+            
+             
+                   <form id="my_form" method="post" action="">
+                    <input id="email" type="email" placeholder="example@domain.com" pattern="^.+@.+$"/>
                     <input id="submit" type="button" value="SUBSCRIBE" button="subsribe()"/>
                 </form>
+                  
             
+            <div>
                 <h2 id="thank_you" class="display"></h2>
             </div>
         
