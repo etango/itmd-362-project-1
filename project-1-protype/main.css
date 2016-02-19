@@ -68,7 +68,9 @@ a {
     
     
 }
-
+ #email{
+       margin-left:20em;
+}
 
  
 a.to_nav {
@@ -96,7 +98,7 @@ a.to_nav:focus {
 }
 
 #home{
-    background-color:#33CCff;
+    background-color:black;
     
     
 }
@@ -113,7 +115,7 @@ a.to_nav:focus {
     display:inline-block;
     padding:1cm;
     margin:1cm 3cm;
-    color:white;
+    color:#33CCff;
     background-color:;
     max-width: 40em;
     font-family:inherit;
@@ -169,7 +171,7 @@ a.to_nav:focus {
 }
 
 #text1{
-    font:white;
+    font:#33CCff;
 }
 
 #golden{
@@ -185,6 +187,10 @@ h2 {
 p {
     max-width: 35em; /*made adjustment to keep font size same*/
     text-align: center;
+}
+
+#thank_you{
+    color:blue;
 }
 @media only screen and (min-width: 768px) {
     
@@ -231,7 +237,7 @@ p {
        
     }
     #newletter{
-    color:white;
+        color:white;
     
     
     
@@ -239,19 +245,16 @@ p {
 }
 
     #news{
-    padding-bottom: .5em;
-    margin-left:7.5em;
+        padding-bottom: .5em;
+        margin-left:7.5em;
     }
 
-    #subscribe{
-     
-    }
 
     #golden{
-    background-color:black;
-    padding-top:.2em;
-    padding-bottom:.2em;
-    display:inline;    
+        background-color:black;
+        padding-top:.2em;
+        padding-bottom:.2em;
+        display:inline;    
 }
     #welcome{
         text-align: justify;
