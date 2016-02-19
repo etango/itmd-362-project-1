@@ -98,24 +98,25 @@ a.to_nav:focus {
 }
 
 #home{
-    background-color:black;
+    background-color:darkgray;
     
     
 }
 
 #title{
     font-family: inherit;
-    font-size:5em; /* adjust text size when small screen */
-    color:white;
+    font-size:4em; /* adjust text size when small screen */
+    color:cyan;
     display:inline-block;
     margin-top: 3cm;
     text-align: center;
+    margin-left:1em;
 }
 #welcome {
     display:inline-block;
     padding:1cm;
     margin:1cm 3cm;
-    color:#33CCff;
+    color:white;
     background-color:;
     max-width: 40em;
     font-family:inherit;
@@ -166,19 +167,25 @@ a.to_nav:focus {
     color:white;
 }
 
-#subscribe{
-    background-color:orange;
+#submit{
+    background-color:cyan;
+    font-family: monospace,inherit;
+    font-style: italic;
+    color:coral;
+    
 }
 
 #text1{
-    font:#33CCff;
+    font:white;
+    font-family:inherit;
 }
 
 #golden{
-    background-color:black;
+    background-color:darkgray;
     padding-top:.2em;
     padding-bottom:.2em;
     display:none;
+    margin-left:1em;
 }
 
 h2 {
@@ -232,9 +239,8 @@ p {
     }
     
     #title{
-        font-size-adjust: auto;
-        margin-left:.5em;
-       
+        margin-left:.7em;
+        font-size:5em;       
     }
     #newletter{
         color:white;
